@@ -1,11 +1,31 @@
 {
   "pages": [
     {
-      "id": "Patients",
+      "id": "Patient Dashboard",
       "isDefault": true
     },
     {
-      "id": "Messages",
+      "id": "Doctor Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Doctor Record Management",
+      "isDefault": false
+    },
+    {
+      "id": "Doctor Actions",
+      "isDefault": false
+    },
+    {
+      "id": "Wellness Coach Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Insurance Rep Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Patient Health Management",
       "isDefault": false
     }
   ],

@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Patients",
-    "slug": "patients",
+    "name": "Doctor Dashboard",
+    "slug": "doctor-dashboard",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
           "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 59,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 610,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Patients",
+        "id": "Doctor Dashboard",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -40,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e24c74f298b42a419bc7b_656e24c74f298b42a419bc7d"
+  "gitSyncId": "656e35a4a3193d09d383df3a_656e37dfa3193d09d383df3f"
 }
