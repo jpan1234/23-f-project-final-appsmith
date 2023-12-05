@@ -42,7 +42,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "headers[0].value"
@@ -61,7 +61,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T19:14:32Z"
+    "createdAt": "2023-12-04T19:31:50Z"
   },
   "id": "Patients_GetMessages",
   "deleted": false,

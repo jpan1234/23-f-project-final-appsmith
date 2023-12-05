@@ -3,6 +3,10 @@
     {
       "id": "Patients",
       "isDefault": true
+    },
+    {
+      "id": "Patient Input Form",
+      "isDefault": false
     }
   ],
   "viewMode": false,

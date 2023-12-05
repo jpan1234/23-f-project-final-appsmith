@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 760,
+          "bottomRow": 1160,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,11 +29,33 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Patients_Message_doctor",
-              "name": "Message_doctor",
+              "id": "Patients_GetHealthrecords",
+              "name": "GetHealthrecords",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "PatientID.text"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Patients_GetMessages",
+              "name": "GetMessages",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "PatientID.text"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Patients_GetPrescriptions",
+              "name": "GetPrescriptions",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "PatientID.text"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
