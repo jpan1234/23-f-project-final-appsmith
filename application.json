@@ -99,6 +99,10 @@
     {
       "id": "AddHealthRecord",
       "isDefault": false
+    },
+    {
+      "id": "Coach Form",
+      "isDefault": false
     }
   ],
   "viewMode": false,

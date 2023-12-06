@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.796875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 4,
+    "leftColumn": 3,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,7 +30,7 @@
     "text": "Your Messages:",
     "key": "88jdn0mydx",
     "isDeprecated": false,
-    "rightColumn": 20,
+    "rightColumn": 19,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "z2dvcxhquk",

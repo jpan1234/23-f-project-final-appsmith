@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 162,
-    "bottomRow": 167,
+    "bottomRow": 166,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -30,7 +30,7 @@
     "text": "Your Patients' Lab Results:",
     "key": "n8o2kd2a7p",
     "isDeprecated": false,
-    "rightColumn": 20,
+    "rightColumn": 27,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "vzwxjz687r",
@@ -52,7 +52,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 4,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 166,
+    "originalBottomRow": 167,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

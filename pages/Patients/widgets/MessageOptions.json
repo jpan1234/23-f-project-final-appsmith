@@ -9,15 +9,15 @@
         "click",
         "submit"
     ],
-    "topRow": 20,
-    "bottomRow": 26,
+    "topRow": 21,
+    "bottomRow": 27,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButton3": {
             "onClick": "{{navigateTo('MessageRep', {}, 'SAME_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
             "buttonType": "SIMPLE",
-            "iconName": "more",
+            "iconName": "send-message",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {
@@ -66,7 +66,7 @@
         "groupButton1": {
             "onClick": "{{navigateTo('MessageDoctor', {}, 'SAME_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
             "buttonType": "SIMPLE",
-            "iconName": "heart",
+            "iconName": "send-message",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
@@ -80,7 +80,7 @@
         "groupButton2": {
             "onClick": "{{navigateTo('MessageCoach', {}, 'NEW_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
             "buttonType": "SIMPLE",
-            "iconName": "add",
+            "iconName": "send-message",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
@@ -123,7 +123,9 @@
     "mobileTopRow": 17,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "originalTopRow": 20,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 28,
+    "originalBottomRow": 26,
     "buttonVariant": "PRIMARY"
 }

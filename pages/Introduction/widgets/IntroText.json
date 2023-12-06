@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 21,
-    "bottomRow": 26,
+    "bottomRow": 25,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -30,8 +30,8 @@
     "text": "Welcome to HuskyHealth!",
     "key": "n8o2kd2a7p",
     "isDeprecated": false,
-    "rightColumn": 37,
-    "textAlign": "LEFT",
+    "rightColumn": 53,
+    "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "4w77qurb7n",
     "minWidth": 450,
@@ -52,7 +52,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 21,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 25,
+    "originalBottomRow": 26,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

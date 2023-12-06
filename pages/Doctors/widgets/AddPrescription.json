@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 18.375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 18,
+    "leftColumn": 15,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}

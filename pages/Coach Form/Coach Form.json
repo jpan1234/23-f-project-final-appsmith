@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Coach Delete Messages",
-    "slug": "coach-delete-messages",
+    "name": "Coach Form",
+    "slug": "coach-form",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 550,
+          "bottomRow": 570,
           "containerStyle": "none",
-          "snapRows": 60,
+          "snapRows": 52,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 620,
+          "minHeight": 540,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Coach Delete Messages",
+        "id": "Coach Form",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -36,8 +36,8 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": true
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e35a4a3193d09d383df3a_657087463de7d07bd7b330a0"
+  "gitSyncId": "657022f6ff01ec26fe0cc4ce_6570ecea2b9ff8156347c0ef"
 }
