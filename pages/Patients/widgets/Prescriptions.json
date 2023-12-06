@@ -188,7 +188,7 @@
     "textSize": "0.875rem",
     "widgetId": "f4tuf4sij7",
     "minWidth": 450,
-    "tableData": "{{GetPrescriptions.data}}",
+    "tableData": "{{GetPrescriptions_patient.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",

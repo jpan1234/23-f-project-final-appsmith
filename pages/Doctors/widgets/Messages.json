@@ -71,7 +71,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 84,
+    "bottomRow": 88,
     "columnWidthMap": {
         "subject": 233,
         "content": 300
@@ -187,7 +187,7 @@
     "textSize": "0.875rem",
     "widgetId": "8r9cbibpdc",
     "minWidth": 450,
-    "tableData": "{{GetMessages.data}}",
+    "tableData": "{{GetMessages_doctor.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",

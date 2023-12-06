@@ -17,7 +17,7 @@
       "isDefault": false
     },
     {
-      "id": "MessageRep",
+      "id": "MessageRepPatient",
       "isDefault": false
     },
     {
@@ -42,6 +42,22 @@
     },
     {
       "id": "Doctor Input Form",
+      "isDefault": false
+    },
+    {
+      "id": "SchedulePatientVisit",
+      "isDefault": false
+    },
+    {
+      "id": "MessagePatientDoctor",
+      "isDefault": false
+    },
+    {
+      "id": "MessageRepDoctor",
+      "isDefault": false
+    },
+    {
+      "id": "InsertLabResult",
       "isDefault": false
     }
   ],

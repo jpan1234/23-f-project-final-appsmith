@@ -9,8 +9,8 @@
         "click",
         "submit"
     ],
-    "topRow": 84,
-    "bottomRow": 88,
+    "topRow": 92,
+    "bottomRow": 96,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
@@ -19,7 +19,7 @@
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "su1xl3n0u8",
             "menuItems": {},
-            "index": 2,
+            "index": 1,
             "id": "groupButtoncpd2273m35",
             "label": "Cancel Visit",
             "isDisabled": false,
@@ -27,29 +27,15 @@
             "placement": "CENTER"
         },
         "groupButton1": {
-            "onClick": "{{navigateTo('ScheduleDoctorVisit', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('SchedulePatientVisit', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "diagnosis",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
             "index": 0,
-            "label": "Doctor",
+            "label": "Patient",
             "id": "groupButton1",
-            "placement": "CENTER",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "groupButton2": {
-            "onClick": "{{navigateTo('ScheduleCoachVisit', {}, 'SAME_WINDOW');}}",
-            "buttonType": "SIMPLE",
-            "iconName": "heart",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "",
-            "menuItems": {},
-            "index": 1,
-            "label": "Wellness Coach",
-            "id": "groupButton2",
             "placement": "CENTER",
             "isVisible": true,
             "isDisabled": false
@@ -59,15 +45,11 @@
     "mobileRightColumn": 60,
     "animateLoading": true,
     "parentColumnSpace": 19.296875,
-    "dynamicTriggerPathList": [
-        {"key": "groupButtons.groupButton1.onClick"},
-        {"key": "groupButtons.groupButton2.onClick"}
-    ],
+    "dynamicTriggerPathList": [{"key": "groupButtons.groupButton1.onClick"}],
     "leftColumn": 33,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton1.buttonColor"},
-        {"key": "groupButtons.groupButton2.buttonColor"},
         {"key": "groupButtons.groupButtoncpd2273m35.buttonColor"}
     ],
     "key": "1yea3k1naa",

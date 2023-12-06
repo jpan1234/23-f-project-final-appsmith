@@ -188,7 +188,7 @@
     "textSize": "0.875rem",
     "widgetId": "19luh1z4se",
     "minWidth": 450,
-    "tableData": "{{GetHealthrecords.data}}",
+    "tableData": "{{GetHealthrecords_patient.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",

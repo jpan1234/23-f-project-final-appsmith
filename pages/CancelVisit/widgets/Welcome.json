@@ -23,12 +23,11 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hello {{appsmith.store.PatientFirstName}}, provide the visitID to cancel it.",
+    "text": "Hello, provide the visitID to cancel it.",
     "key": "n8o2kd2a7p",
     "isDeprecated": false,
     "rightColumn": 43,
@@ -49,7 +48,7 @@
     "isLoading": false,
     "mobileTopRow": 20,
     "responsiveBehavior": "fill",
-    "originalTopRow": 20,
+    "originalTopRow": 21,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 19,
     "maxDynamicHeight": 9000,

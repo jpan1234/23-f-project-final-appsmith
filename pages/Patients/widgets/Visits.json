@@ -254,7 +254,7 @@
     "textSize": "0.875rem",
     "widgetId": "v7lys0jb9j",
     "minWidth": 450,
-    "tableData": "{{GetVisits.data}}",
+    "tableData": "{{GetVisits_patient.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",

@@ -151,7 +151,7 @@
     "textSize": "0.875rem",
     "widgetId": "8r9cbibpdc",
     "minWidth": 450,
-    "tableData": "{{GetMessages.data}}",
+    "tableData": "{{GetMessages_patient.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",

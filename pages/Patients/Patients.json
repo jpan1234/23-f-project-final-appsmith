@@ -29,8 +29,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Patients_GetHealthrecords",
-              "name": "GetHealthrecords",
+              "id": "Patients_GetHealthrecords_patient",
+              "name": "GetHealthrecords_patient",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -39,8 +39,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Patients_GetMessages",
-              "name": "GetMessages",
+              "id": "Patients_GetMessages_patient",
+              "name": "GetMessages_patient",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -49,8 +49,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Patients_GetPrescriptions",
-              "name": "GetPrescriptions",
+              "id": "Patients_GetPrescriptions_patient",
+              "name": "GetPrescriptions_patient",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -59,8 +59,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Patients_GetVisits",
-              "name": "GetVisits",
+              "id": "Patients_GetVisits_patient",
+              "name": "GetVisits_patient",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

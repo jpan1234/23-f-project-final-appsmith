@@ -56,7 +56,7 @@
                     "isDisabled": false
                 }
             },
-            "index": 2,
+            "index": 1,
             "label": "Message Insurance Representative",
             "id": "groupButton3",
             "placement": "CENTER",
@@ -71,22 +71,8 @@
             "widgetId": "",
             "menuItems": {},
             "index": 0,
-            "label": "Message Doctor",
+            "label": "Message Patient",
             "id": "groupButton1",
-            "placement": "CENTER",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "groupButton2": {
-            "onClick": "{{navigateTo('MessageCoach', {}, 'NEW_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
-            "buttonType": "SIMPLE",
-            "iconName": "add",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "",
-            "menuItems": {},
-            "index": 1,
-            "label": "Message Coach",
-            "id": "groupButton2",
             "placement": "CENTER",
             "isVisible": true,
             "isDisabled": false
@@ -98,14 +84,12 @@
     "parentColumnSpace": 19.296875,
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton1.onClick"},
-        {"key": "groupButtons.groupButton2.onClick"},
         {"key": "groupButtons.groupButton3.onClick"}
     ],
     "leftColumn": 29,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton1.buttonColor"},
-        {"key": "groupButtons.groupButton2.buttonColor"},
         {"key": "groupButtons.groupButton3.buttonColor"}
     ],
     "key": "1yea3k1naa",

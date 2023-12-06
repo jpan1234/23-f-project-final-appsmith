@@ -179,7 +179,7 @@
     "textSize": "0.875rem",
     "widgetId": "9fvx6dxgi9",
     "minWidth": 450,
-    "tableData": "{{GetPatients.data}}",
+    "tableData": "{{GetPatients_doctor.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",

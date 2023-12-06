@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1880,
+          "bottomRow": 1910,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,8 +29,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Doctors_GetHealthrecords",
-              "name": "GetHealthrecords",
+              "id": "Doctors_GetHealthrecords_doctor",
+              "name": "GetHealthrecords_doctor",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -39,8 +39,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Doctors_GetLabresults",
-              "name": "GetLabresults",
+              "id": "Doctors_GetLabresults_doctor",
+              "name": "GetLabresults_doctor",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -49,8 +49,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Doctors_GetMessages",
-              "name": "GetMessages",
+              "id": "Doctors_GetMessages_doctor",
+              "name": "GetMessages_doctor",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -59,8 +59,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Doctors_GetPatients",
-              "name": "GetPatients",
+              "id": "Doctors_GetPatients_doctor",
+              "name": "GetPatients_doctor",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -69,8 +69,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Doctors_GetPrescriptions",
-              "name": "GetPrescriptions",
+              "id": "Doctors_GetPrescriptions_doctor",
+              "name": "GetPrescriptions_doctor",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -79,8 +79,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Doctors_GetVisits",
-              "name": "GetVisits",
+              "id": "Doctors_GetVisits_doctor",
+              "name": "GetVisits_doctor",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
