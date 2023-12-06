@@ -1,5 +1,0 @@
-{
-	"purpose" : {{Purpose.text}},
-	"visitDate" : {{ScheduleVisit.formattedDate}},
-	"coachID" : {{CoachID.text}}
-}
