@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Patients",
-    "slug": "patients",
+    "name": "Patient_ViewHealthRecords",
+    "slug": "patient-viewhealthrecords",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 900,
+          "bottomRow": 520,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 52,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 540,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,18 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Patients_GetMessages_patient",
-              "name": "GetMessages_patient",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.PatientID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Patients_GetVisits_patient",
-              "name": "GetVisits_patient",
+              "id": "Patient_ViewHealthRecords_GetHealthrecords_patient",
+              "name": "GetHealthrecords_patient",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -52,7 +41,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Patients",
+        "id": "Patient_ViewHealthRecords",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -63,5 +52,5 @@
     "isHidden": true
   },
   "deleted": false,
-  "gitSyncId": "656e24c74f298b42a419bc7b_656e24c74f298b42a419bc7d"
+  "gitSyncId": "657022f6ff01ec26fe0cc4ce_6570fa9a2b9ff8156347c112"
 }

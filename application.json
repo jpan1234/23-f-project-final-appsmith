@@ -107,6 +107,14 @@
     {
       "id": "Doctor_CancelVisit",
       "isDefault": false
+    },
+    {
+      "id": "Patient_ViewHealthRecords",
+      "isDefault": false
+    },
+    {
+      "id": "Patient_ViewPrescriptions",
+      "isDefault": false
     }
   ],
   "viewMode": false,

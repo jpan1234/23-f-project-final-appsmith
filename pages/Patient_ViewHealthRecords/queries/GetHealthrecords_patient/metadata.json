@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Patients",
+    "pageId": "Patient_ViewHealthRecords",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -37,7 +37,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "path"
@@ -53,9 +53,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-06T21:28:32Z"
+    "createdAt": "2023-12-06T23:00:04Z"
   },
-  "id": "Patients_GetHealthrecords_patient",
+  "id": "Patient_ViewHealthRecords_GetHealthrecords_patient",
   "deleted": false,
-  "gitSyncId": "656e29264f298b42a419bc84_656e329f4f298b42a419bc94"
+  "gitSyncId": "657022f6ff01ec26fe0cc4ce_6570fcf42b9ff8156347c119"
 }
