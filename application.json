@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "Coach Form",
-      "isDefault": true
-    },
-    {
       "id": "Wellness Coach Dashboard",
       "isDefault": false
     },
@@ -37,7 +33,6 @@
       "isDefault": false
     },
     {
-
       "id": "Patients",
       "isDefault": false
     },
