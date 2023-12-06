@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 85,
-    "bottomRow": 89,
+    "topRow": 86,
+    "bottomRow": 90,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.796875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 31,
+    "leftColumn": 4,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,7 +30,7 @@
     "text": "Your Health Records:",
     "key": "88jdn0mydx",
     "isDeprecated": false,
-    "rightColumn": 47,
+    "rightColumn": 20,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "pd1ux8rqjq",
