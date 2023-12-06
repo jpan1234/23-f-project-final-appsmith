@@ -31,7 +31,7 @@
     "text": "Hello {{appsmith.store.FirstName || appsmith.store.LastName}}, Welcome to HuskyHealth!",
     "key": "zb7pfu7h87",
     "isDeprecated": false,
-    "rightColumn": 50,
+    "rightColumn": 32,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "tydsizjg2a",
