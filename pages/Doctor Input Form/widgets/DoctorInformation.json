@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{navigateTo('Doctors', {}, 'SAME_WINDOW').then(() => {\n  storeValue('DoctorFirstName', DoctorInformation.formData.DoctorFirstName);\n  storeValue('DoctorLastName', DoctorInformation.formData.DoctorLastName + '/');\n  storeValue('DoctorID', DoctorInformation.formData.DoctorID);\n}).catch(() => {\n  showAlert('Please fill out all fields!', 'error');\n});}}",
+    "onSubmit": "{{navigateTo('Doctors', {}, 'SAME_WINDOW').then(() => {\n  storeValue('DoctorFirstName', DoctorInformation.formData.DoctorFirstName);\n  storeValue('DoctorLastName', DoctorInformation.formData.DoctorLastName);\n  storeValue('DoctorID', DoctorInformation.formData.DoctorID);\n}).catch(() => {\n  showAlert('Please fill out all fields!', 'error');\n});}}",
     "topRow": 7,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,

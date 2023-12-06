@@ -59,6 +59,14 @@
     {
       "id": "InsertLabResult",
       "isDefault": false
+    },
+    {
+      "id": "InsertPrescription",
+      "isDefault": false
+    },
+    {
+      "id": "AddHealthRecord",
+      "isDefault": false
     }
   ],
   "viewMode": false,
