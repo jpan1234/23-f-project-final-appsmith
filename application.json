@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Doctor Input",
       "isDefault": true
+    },
+    {
+      "id": "Doctor Home Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -15,6 +19,9 @@
   },
   "color": "#F1DEFF",
   "icon": "flag",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

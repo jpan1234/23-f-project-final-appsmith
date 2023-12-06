@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "GetMessages",
+    "name": "GetVisits",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "/p"
+        "url": ""
       },
       "invalids": [],
       "messages": [],
@@ -16,10 +16,11 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Doctor Home Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
+      "path": "web:4000/d/visits/{{DoctorID.text}}",
       "headers": [],
       "encodeParamsToggle": true,
       "queryParameters": [],
@@ -36,18 +37,23 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "path"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "DoctorID.text"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-04T19:14:32Z"
+    "userPermissions": []
   },
-  "id": "Page1_GetMessages",
+  "id": "Doctor Home Page_GetVisits",
   "deleted": false,
-  "gitSyncId": "656e24c74f298b42a419bc7b_656e25184f298b42a419bc80"
+  "gitSyncId": "656fbc5de095c21a8b55c02d_656fc875e095c21a8b55c03f"
 }
