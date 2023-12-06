@@ -9,27 +9,27 @@
       "isDefault": false
     },
     {
-      "id": "MessageDoctor",
+      "id": "Patient_MessageDoctor",
       "isDefault": false
     },
     {
-      "id": "MessageCoach",
+      "id": "Patient_MessageCoach",
       "isDefault": false
     },
     {
-      "id": "MessageRepPatient",
+      "id": "Patient_MessageRep",
       "isDefault": false
     },
     {
-      "id": "ScheduleDoctorVisit",
+      "id": "Patient_ScheduleDoctorVisit",
       "isDefault": false
     },
     {
-      "id": "ScheduleCoachVisit",
+      "id": "Patient_ScheduleCoachVisit",
       "isDefault": false
     },
     {
-      "id": "CancelVisit",
+      "id": "Doctor-Patient_ CancelVisitPai",
       "isDefault": false
     },
     {
@@ -45,15 +45,15 @@
       "isDefault": false
     },
     {
-      "id": "SchedulePatientVisit",
+      "id": "Doctor_SchedulePatientVisit",
       "isDefault": false
     },
     {
-      "id": "MessagePatientDoctor",
+      "id": "Doctor_MessagePatient",
       "isDefault": false
     },
     {
-      "id": "MessageRepDoctor",
+      "id": "Doctor_MessageRep",
       "isDefault": false
     },
     {
