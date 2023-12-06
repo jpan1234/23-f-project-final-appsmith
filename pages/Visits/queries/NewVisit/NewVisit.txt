@@ -1,8 +1,0 @@
-{
-
-  "purpose": "{{ Purpose.text }}",
-  "visitDate": "{{ VisitDate.selectedDate }}",
-  "patientID": "{{ PatientID.text }}",
-  "id": "{{ ID.text }}"
-
-}
