@@ -7,6 +7,18 @@
     {
       "id": "Patient Input Form",
       "isDefault": false
+    },
+    {
+      "id": "MessageDoctor",
+      "isDefault": false
+    },
+    {
+      "id": "MessageCoach",
+      "isDefault": false
+    },
+    {
+      "id": "MessageRep",
+      "isDefault": false
     }
   ],
   "viewMode": false,
