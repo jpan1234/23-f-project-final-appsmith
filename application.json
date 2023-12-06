@@ -5,18 +5,6 @@
       "isDefault": true
     },
     {
-      "id": "Doctor Dashboard",
-      "isDefault": false
-    },
-    {
-      "id": "Doctor Record Management",
-      "isDefault": false
-    },
-    {
-      "id": "Doctor Actions",
-      "isDefault": false
-    },
-    {
       "id": "Wellness Coach Dashboard",
       "isDefault": false
     },
