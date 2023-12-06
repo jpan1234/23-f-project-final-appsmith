@@ -35,6 +35,75 @@
     {
       "id": "Coach Delete Messages",
       "isDefault": false
+    },
+    {
+
+      "id": "Patients",
+      "isDefault": false
+    },
+    {
+      "id": "Patient Input Form",
+      "isDefault": false
+    },
+    {
+      "id": "Patient_MessageDoctor",
+      "isDefault": false
+    },
+    {
+      "id": "Patient_MessageCoach",
+      "isDefault": false
+    },
+    {
+      "id": "Patient_MessageRep",
+      "isDefault": false
+    },
+    {
+      "id": "Patient_ScheduleDoctorVisit",
+      "isDefault": false
+    },
+    {
+      "id": "Patient_ScheduleCoachVisit",
+      "isDefault": false
+    },
+    {
+      "id": "Doctor-Patient_ CancelVisitPai",
+      "isDefault": false
+    },
+    {
+      "id": "Doctors",
+      "isDefault": false
+    },
+    {
+      "id": "Introduction",
+      "isDefault": true
+    },
+    {
+      "id": "Doctor Input Form",
+      "isDefault": false
+    },
+    {
+      "id": "Doctor_SchedulePatientVisit",
+      "isDefault": false
+    },
+    {
+      "id": "Doctor_MessagePatient",
+      "isDefault": false
+    },
+    {
+      "id": "Doctor_MessageRep",
+      "isDefault": false
+    },
+    {
+      "id": "InsertLabResult",
+      "isDefault": false
+    },
+    {
+      "id": "InsertPrescription",
+      "isDefault": false
+    },
+    {
+      "id": "AddHealthRecord",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -47,6 +116,12 @@
   },
   "color": "#F1DEFF",
   "icon": "flag",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
