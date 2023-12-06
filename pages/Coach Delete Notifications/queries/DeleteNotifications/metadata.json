@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Coach Delete Messages",
+    "pageId": "Coach Delete Notifications",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -61,7 +61,7 @@
     "userPermissions": [],
     "createdAt": "2023-12-06T14:38:49Z"
   },
-  "id": "Coach Delete Messages_DeleteNotifications",
+  "id": "Coach Delete Notifications_DeleteNotifications",
   "deleted": false,
   "gitSyncId": "656e35a4a3193d09d383df3a_657087793de7d07bd7b330a2"
 }

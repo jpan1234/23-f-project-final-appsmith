@@ -15,7 +15,8 @@
         {"key": "tableData"},
         {"key": "primaryColumns.description.computedValue"},
         {"key": "primaryColumns.amount.computedValue"},
-        {"key": "primaryColumns.paid.computedValue"}
+        {"key": "primaryColumns.paid.computedValue"},
+        {"key": "primaryColumns.patientID.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 2,
@@ -57,7 +58,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701901868684,
+    "columnUpdatedAt": 1701902123977,
     "originalBottomRow": 73,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 73,
@@ -66,7 +67,8 @@
     "columnOrder": [
         "description",
         "amount",
-        "paid"
+        "paid",
+        "patientID"
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
@@ -108,6 +110,40 @@
             "sticky": "",
             "originalId": "amount",
             "currencyCode": "USD",
+            "verticalAlignment": "CENTER"
+        },
+        "patientID": {
+            "computedValue": "{{BillingRecordTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"patientID\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "patientID",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "patientID",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 3,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "patientID",
+            "fontStyle": "",
+            "textColor": "",
+            "columnType": "number",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "patientID",
+            "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "paid": {

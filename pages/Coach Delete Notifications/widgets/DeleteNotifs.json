@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{storeValue('notificationID', DeleteNotifs.formData.notificationID).then(() => {});\nDeleteNotifications.run().then(() => {\n  navigateTo('Wellness Coach Dashboard', {}, 'SAME_WINDOW');\n});}}",
+    "onSubmit": "{{storeValue('notificationID', DeleteNotifs.formData.notificationID).then(() => {});\nDeleteNotifications.run().then(() => {\n  navigateTo('Wellness Coach Dashboard', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('No such ID combinations, please try again!', 'error');\n});\nnavigateTo('Wellness Coach Dashboard', {}, 'SAME_WINDOW');}}",
     "topRow": 14,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,

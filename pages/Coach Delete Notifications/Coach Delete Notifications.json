@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Coach Delete Messages",
-    "slug": "coach-delete-messages",
+    "name": "Coach Delete Notifications",
+    "slug": "coach-delete-notifications",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Coach Delete Messages",
+        "id": "Coach Delete Notifications",
         "deleted": false,
         "policies": [],
         "userPermissions": []
