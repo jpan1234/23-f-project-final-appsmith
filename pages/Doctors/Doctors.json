@@ -1,0 +1,97 @@
+{
+  "unpublishedPage": {
+    "name": "Doctors",
+    "slug": "doctors",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1740,
+          "containerStyle": "none",
+          "snapRows": 124,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 87,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Doctors_GetHealthrecords",
+              "name": "GetHealthrecords",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.DoctorID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Doctors_GetLabresults",
+              "name": "GetLabresults",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.DoctorID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Doctors_GetMessages",
+              "name": "GetMessages",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.DoctorID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Doctors_GetPrescriptions",
+              "name": "GetPrescriptions",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.DoctorID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Doctors_GetVisits",
+              "name": "GetVisits",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.DoctorID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Doctors",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "656e29264f298b42a419bc84_657002a58670b56ca78f5fdf"
+}

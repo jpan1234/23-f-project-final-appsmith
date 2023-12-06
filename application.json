@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": "Patients",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Patient Input Form",
@@ -30,6 +30,18 @@
     },
     {
       "id": "CancelVisit",
+      "isDefault": false
+    },
+    {
+      "id": "Doctors",
+      "isDefault": false
+    },
+    {
+      "id": "Introduction",
+      "isDefault": true
+    },
+    {
+      "id": "Doctor Input Form",
       "isDefault": false
     }
   ],

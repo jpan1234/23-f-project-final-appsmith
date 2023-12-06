@@ -1,6 +1,6 @@
 {
-    "mobileBottomRow": 16,
-    "widgetName": "WelcomeMessage",
+    "mobileBottomRow": 65,
+    "widgetName": "PrescriptionHeader",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 14,
-    "bottomRow": 18,
+    "topRow": 108,
+    "bottomRow": 112,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -23,18 +23,17 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hello {{appsmith.store.PatientFirstName}} {{appsmith.store.PatientLastName}}, welcome to HuskyHealth!",
+    "text": "Your Prescriptions:",
     "key": "88jdn0mydx",
     "isDeprecated": false,
-    "rightColumn": 38,
+    "rightColumn": 20,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "q1d4gwjkvh",
+    "widgetId": "a7c7cbpl94",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
@@ -47,13 +46,11 @@
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 12,
+    "mobileTopRow": 61,
     "responsiveBehavior": "fill",
-    "originalTopRow": 16,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 4,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 21,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
