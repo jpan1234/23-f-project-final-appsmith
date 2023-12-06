@@ -124,7 +124,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 51,
+    "originalBottomRow": 59,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -141,9 +141,9 @@
             "customField1": {
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "YYYY-MM-DD HH:mm",
+                "dateFormat": "YYYY-MM-DD",
                 "defaultValue": "2023-12-06T15:36:41.4141-05:00",
-                "accessor": "customField1",
+                "accessor": "dateSent",
                 "shortcuts": false,
                 "convertToISO": false,
                 "children": {},
