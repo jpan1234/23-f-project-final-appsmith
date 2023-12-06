@@ -1,0 +1,5 @@
+{
+	"purpose" : {{Purpose.text}},
+	"visitDate" : {{ScheduleVisit.formattedDate}},
+	"doctorID" : {{DoctorID.text}}
+}
