@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Your Prescriptions",
+    "text": "Your Prescriptions:",
     "key": "88jdn0mydx",
     "isDeprecated": false,
     "rightColumn": 20,
