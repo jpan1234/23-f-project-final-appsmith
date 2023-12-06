@@ -31,6 +31,10 @@
     {
       "id": "Rep Messages Doctor",
       "isDefault": false
+    },
+    {
+      "id": "Coach Delete Messages",
+      "isDefault": false
     }
   ],
   "viewMode": false,

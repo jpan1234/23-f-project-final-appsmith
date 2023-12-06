@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 990,
+          "bottomRow": 1340,
           "containerStyle": "none",
           "snapRows": 59,
           "parentRowSpace": 1,
@@ -40,6 +40,16 @@
             {
               "id": "Wellness Coach Dashboard_GetMessages",
               "name": "GetMessages",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.CoachID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Wellness Coach Dashboard_GetNotifications",
+              "name": "GetNotifications",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

@@ -19,7 +19,7 @@
         {"key": "primaryColumns.vaxHistory.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 33,
+    "leftColumn": 32,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -59,7 +59,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701843555761,
-    "originalBottomRow": 111,
+    "originalBottomRow": 134,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 59,
     "widgetName": "Health_Records",
@@ -234,7 +234,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 83,
+    "originalTopRow": 106,
     "mobileLeftColumn": 31,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
