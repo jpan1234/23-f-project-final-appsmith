@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "mobileBottomRow": 13,
-    "widgetName": "Button1",
+    "widgetName": "BackButton",
     "onClick": "{{navigateTo('Insurance Rep Dashboard', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",

@@ -15,7 +15,7 @@
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButtoncpd2273m35": {
-            "onClick": "{{navigateTo('CancelVisit', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Patient_ CancelVisit', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "su1xl3n0u8",

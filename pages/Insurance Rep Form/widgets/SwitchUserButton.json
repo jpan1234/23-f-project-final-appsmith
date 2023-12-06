@@ -3,6 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 5,
     "widgetName": "SwitchUserButton",
+    "onClick": "{{navigateTo('Introduction', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -18,7 +19,7 @@
     "mobileRightColumn": 63,
     "animateLoading": true,
     "parentColumnSpace": 11.25,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 38,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
@@ -41,11 +42,11 @@
     "isLoading": false,
     "mobileTopRow": 1,
     "responsiveBehavior": "hug",
-    "originalTopRow": 52,
+    "originalTopRow": 51,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 47,
-    "originalBottomRow": 56,
+    "originalBottomRow": 55,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

@@ -13,8 +13,8 @@
         {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "tableData"},
-        {"key": "primaryColumns.amount.computedValue"},
         {"key": "primaryColumns.description.computedValue"},
+        {"key": "primaryColumns.amount.computedValue"},
         {"key": "primaryColumns.paid.computedValue"}
     ],
     "needsHeightForContent": true,
@@ -57,21 +57,21 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701842589112,
+    "columnUpdatedAt": 1701901868684,
     "originalBottomRow": 73,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 73,
     "widgetName": "BillingRecordTable",
     "defaultPageSize": 0,
     "columnOrder": [
-        "amount",
         "description",
+        "amount",
         "paid"
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
     "bottomRow": 73,
-    "columnWidthMap": {},
+    "columnWidthMap": {"description": 193},
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 36,
@@ -94,12 +94,10 @@
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,
-            "index": 0,
+            "index": 1,
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "amount",
-            "fontStyle": "",
-            "textColor": "",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -110,7 +108,6 @@
             "sticky": "",
             "originalId": "amount",
             "currencyCode": "USD",
-            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "paid": {
@@ -132,8 +129,6 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "paid",
-            "fontStyle": "",
-            "textColor": "",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -144,7 +139,6 @@
             "sticky": "",
             "originalId": "paid",
             "currencyCode": "USD",
-            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "description": {
