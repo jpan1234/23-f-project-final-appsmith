@@ -152,7 +152,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 52,
+    "originalBottomRow": 120,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -455,7 +455,7 @@
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
-    "bottomRow": 120,
+    "bottomRow": 123,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Insert Prescription Information:",

@@ -59,7 +59,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701841114998,
-    "originalBottomRow": 158,
+    "originalBottomRow": 159,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 92,
     "widgetName": "Prescriptions",
@@ -234,7 +234,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 130,
+    "originalTopRow": 131,
     "mobileLeftColumn": 4,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

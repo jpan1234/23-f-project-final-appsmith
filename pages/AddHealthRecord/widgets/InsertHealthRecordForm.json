@@ -133,7 +133,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 52,
+    "originalBottomRow": 76,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -299,7 +299,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 76,
+    "bottomRow": 79,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Insert Health Record Information:",
