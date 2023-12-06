@@ -9,8 +9,8 @@
         "click",
         "submit"
     ],
-    "topRow": 52,
-    "bottomRow": 56,
+    "topRow": 51,
+    "bottomRow": 55,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
@@ -28,7 +28,7 @@
             "placement": "CENTER"
         },
         "groupButton1": {
-            "onClick": "{{navigateTo('ScheduleDoctorVisit', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Patient_ScheduleDoctorVisit', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "diagnosis",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -42,7 +42,7 @@
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{navigateTo('ScheduleCoachVisit', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Patient_ScheduleCoachVisit', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "heart",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -87,9 +87,9 @@
     "mobileTopRow": 119,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 51,
+    "originalTopRow": 52,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 36,
-    "originalBottomRow": 55,
+    "originalBottomRow": 56,
     "buttonVariant": "PRIMARY"
 }

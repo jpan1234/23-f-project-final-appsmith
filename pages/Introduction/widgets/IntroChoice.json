@@ -96,7 +96,7 @@
         {"key": "groupButtons.groupButton3.onClick"},
         {"key": "groupButtons.groupButtonu3t1i2xfei.onClick"}
     ],
-    "leftColumn": 14,
+    "leftColumn": 9,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton1.buttonColor"},
@@ -107,7 +107,7 @@
     "key": "wjd2y2gvs3",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 58,
+    "rightColumn": 53,
     "widgetId": "38m64b5z8p",
     "minWidth": 450,
     "isVisible": true,

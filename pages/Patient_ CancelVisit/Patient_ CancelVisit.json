@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Doctor-Patient_ CancelVisitPai",
-    "slug": "doctor-patient-cancelvisitpai",
+    "name": "Patient_ CancelVisit",
+    "slug": "patient-cancelvisit",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Doctor-Patient_ CancelVisitPai",
+        "id": "Patient_ CancelVisit",
         "deleted": false,
         "policies": [],
         "userPermissions": []

@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Doctor-Patient_ CancelVisitPai",
+    "pageId": "Patient_ CancelVisit",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -61,7 +61,7 @@
     "userPermissions": [],
     "createdAt": "2023-12-06T04:58:58Z"
   },
-  "id": "Doctor-Patient_ CancelVisitPai_CancelCoachVisit",
+  "id": "Patient_ CancelVisit_CancelCoachVisit",
   "deleted": false,
   "gitSyncId": "656e29264f298b42a419bc84_656fff928670b56ca78f5fd1"
 }

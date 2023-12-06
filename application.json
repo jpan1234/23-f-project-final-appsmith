@@ -61,7 +61,7 @@
       "isDefault": false
     },
     {
-      "id": "Doctor-Patient_ CancelVisitPai",
+      "id": "Patient_ CancelVisit",
       "isDefault": false
     },
     {
@@ -102,6 +102,10 @@
     },
     {
       "id": "Coach Form",
+      "isDefault": false
+    },
+    {
+      "id": "Doctor_CancelVisit",
       "isDefault": false
     }
   ],

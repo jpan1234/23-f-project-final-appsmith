@@ -19,7 +19,7 @@
     "fontFamily": "Nunito Sans",
     "parentColumnSpace": 19.296875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 21,
+    "leftColumn": 16,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"}
@@ -29,7 +29,7 @@
     "text": "Our premium healthcare service app connecting patients with their doctors, wellness coaches, and insurance representatives!",
     "key": "n8o2kd2a7p",
     "isDeprecated": false,
-    "rightColumn": 54,
+    "rightColumn": 49,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "l6tfaa6cpx",

@@ -15,6 +15,7 @@
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButtoncpd2273m35": {
+            "onClick": "{{navigateTo(\"\", {}, 'SAME_WINDOW')}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "su1xl3n0u8",
@@ -27,7 +28,7 @@
             "placement": "CENTER"
         },
         "groupButton1": {
-            "onClick": "{{navigateTo('SchedulePatientVisit', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Doctor_SchedulePatientVisit', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "diagnosis",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -45,7 +46,10 @@
     "mobileRightColumn": 60,
     "animateLoading": true,
     "parentColumnSpace": 19.296875,
-    "dynamicTriggerPathList": [{"key": "groupButtons.groupButton1.onClick"}],
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButtoncpd2273m35.onClick"}
+    ],
     "leftColumn": 33,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},

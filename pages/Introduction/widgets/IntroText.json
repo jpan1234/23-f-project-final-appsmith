@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 19.296875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 21,
+    "leftColumn": 16,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,7 +30,7 @@
     "text": "Welcome to HuskyHealth!",
     "key": "n8o2kd2a7p",
     "isDeprecated": false,
-    "rightColumn": 53,
+    "rightColumn": 48,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "4w77qurb7n",

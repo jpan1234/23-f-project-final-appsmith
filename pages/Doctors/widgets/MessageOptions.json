@@ -15,7 +15,7 @@
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButton3": {
-            "onClick": "{{navigateTo('MessageRep', {}, 'SAME_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
+            "onClick": "{{navigateTo('Doctor_MessageRep', {}, 'SAME_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
             "buttonType": "SIMPLE",
             "iconName": "arrow-right",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -64,7 +64,7 @@
             "isDisabled": false
         },
         "groupButton1": {
-            "onClick": "{{navigateTo('MessageDoctor', {}, 'SAME_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
+            "onClick": "{{navigateTo('Doctor_MessagePatient', {}, 'SAME_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
             "buttonType": "SIMPLE",
             "iconName": "send-message",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",

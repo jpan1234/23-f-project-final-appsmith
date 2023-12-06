@@ -59,7 +59,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701840733303,
-    "originalBottomRow": 195,
+    "originalBottomRow": 194,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 148,
     "widgetName": "LabResults",
@@ -222,7 +222,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 167,
+    "originalTopRow": 166,
     "mobileLeftColumn": 4,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

@@ -9,13 +9,13 @@
         "click",
         "submit"
     ],
-    "topRow": 21,
-    "bottomRow": 27,
+    "topRow": 20,
+    "bottomRow": 26,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButton3": {
-            "onClick": "{{navigateTo('MessageRep', {}, 'SAME_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
+            "onClick": "{{navigateTo('Patient_MessageRep', {}, 'SAME_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
             "buttonType": "SIMPLE",
             "iconName": "send-message",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -64,7 +64,7 @@
             "isDisabled": false
         },
         "groupButton1": {
-            "onClick": "{{navigateTo('MessageDoctor', {}, 'SAME_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
+            "onClick": "{{navigateTo('Patient_MessageDoctor', {}, 'SAME_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
             "buttonType": "SIMPLE",
             "iconName": "send-message",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -78,7 +78,7 @@
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{navigateTo('MessageCoach', {}, 'NEW_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
+            "onClick": "{{navigateTo('Patient_MessageCoach', {}, 'NEW_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
             "buttonType": "SIMPLE",
             "iconName": "send-message",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -123,9 +123,9 @@
     "mobileTopRow": 17,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 20,
+    "originalTopRow": 21,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 28,
-    "originalBottomRow": 26,
+    "originalBottomRow": 27,
     "buttonVariant": "PRIMARY"
 }
