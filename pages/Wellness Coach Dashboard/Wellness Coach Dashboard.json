@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 590,
+          "bottomRow": 1030,
           "containerStyle": "none",
           "snapRows": 59,
           "parentRowSpace": 1,
@@ -25,7 +25,30 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Wellness Coach Dashboard_GetHealthRecords",
+              "name": "GetHealthRecords",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "CoachID.text"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Wellness Coach Dashboard_GetWellnessRecords",
+              "name": "GetWellnessRecords",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "CoachID.text"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Wellness Coach Dashboard",

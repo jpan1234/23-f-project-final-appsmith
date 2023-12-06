@@ -1,0 +1,8 @@
+{
+
+  "purpose": "{{ Purpose.text }}",
+  "visitDate": "{{ VisitDate.selectedDate }}",
+  "patientID": "{{ PatientID.text }}",
+  "coachid": "{{ CoachID.text }}"
+
+}

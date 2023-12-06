@@ -1,26 +1,27 @@
 {
   "unpublishedPage": {
-    "name": "Patient Health Management",
-    "slug": "patient-health-management",
+    "name": "Coach Form",
+    "slug": "coach-form",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
+          "rightColumn": 4896,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 600,
+          "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 59,
+          "snapRows": 124,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 610,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,7 +29,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Patient Health Management",
+        "id": "Coach Form",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +40,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e35a4a3193d09d383df3a_656e47eda3193d09d383df53"
+  "gitSyncId": "656e24c74f298b42a419bc7b_656e24c74f298b42a419bc7d"
 }

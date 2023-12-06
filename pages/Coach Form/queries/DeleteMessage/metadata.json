@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Patient Dashboard",
+    "pageId": "Coach Form",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -51,7 +51,7 @@
     "userPermissions": [],
     "createdAt": "2023-12-04T22:05:56Z"
   },
-  "id": "Patient Dashboard_DeleteMessage",
+  "id": "Coach Form_DeleteMessage",
   "deleted": false,
   "gitSyncId": "656e35a4a3193d09d383df3a_656e4d44a3193d09d383df7b"
 }
