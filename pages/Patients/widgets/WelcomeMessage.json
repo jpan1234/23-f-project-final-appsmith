@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hello {{appsmith.store.FirstName}} {{appsmith.store.LastName}}, welcome to HuskyHealth!",
+    "text": "Hello {{appsmith.store.PatientFirstName}} {{appsmith.store.PatientLastName}}, welcome to HuskyHealth!",
     "key": "88jdn0mydx",
     "isDeprecated": false,
     "rightColumn": 38,
