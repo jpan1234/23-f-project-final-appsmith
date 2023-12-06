@@ -1,6 +1,43 @@
 {
   "pages": [
     {
+      "id": "Coach Form",
+      "isDefault": true
+    },
+    {
+      "id": "Wellness Coach Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": " Coach Visit",
+      "isDefault": false
+    },
+    {
+      "id": "Coach Messages",
+      "isDefault": false
+    },
+    {
+      "id": "Insurance Rep Form",
+      "isDefault": false
+    },
+    {
+      "id": "Insurance Rep Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Rep Messages Patient",
+      "isDefault": false
+    },
+    {
+      "id": "Rep Messages Doctor",
+      "isDefault": false
+    },
+    {
+      "id": "Coach Delete Messages",
+      "isDefault": false
+    },
+    {
+
       "id": "Patients",
       "isDefault": false
     },
