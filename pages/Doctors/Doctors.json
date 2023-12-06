@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1740,
+          "bottomRow": 1880,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -51,6 +51,16 @@
             {
               "id": "Doctors_GetMessages",
               "name": "GetMessages",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.DoctorID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Doctors_GetPatients",
+              "name": "GetPatients",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
