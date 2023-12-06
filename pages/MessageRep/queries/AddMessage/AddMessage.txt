@@ -1,7 +1,2 @@
-{{
+{{MessageRepForm.formData}}
 
-{'content': MessageRepForm.formData.content,
- 'subject': MessageRepForm.formData.subject,
- 'repID' : MessageRepForm.formData.repID}
-
-}}

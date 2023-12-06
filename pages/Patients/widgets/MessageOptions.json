@@ -1,0 +1,129 @@
+{
+    "boxShadow": "none",
+    "mobileBottomRow": 21,
+    "widgetName": "MessageOptions",
+    "isCanvas": false,
+    "displayName": "Button Group",
+    "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 23,
+    "bottomRow": 27,
+    "parentRowSpace": 10,
+    "type": "BUTTON_GROUP_WIDGET",
+    "groupButtons": {
+        "groupButton3": {
+            "onClick": "{{navigateTo('MessageRep', {}, 'SAME_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
+            "buttonType": "SIMPLE",
+            "iconName": "more",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {
+                "menuItem1": {
+                    "backgroundColor": "#FFFFFF",
+                    "onClick": "",
+                    "widgetId": "",
+                    "index": 0,
+                    "label": "First Option",
+                    "id": "menuItem1",
+                    "isVisible": true,
+                    "isDisabled": false
+                },
+                "menuItem3": {
+                    "backgroundColor": "#DD4B34",
+                    "onClick": "",
+                    "iconName": "trash",
+                    "widgetId": "",
+                    "iconColor": "#FFFFFF",
+                    "iconAlign": "right",
+                    "index": 2,
+                    "label": "Delete",
+                    "id": "menuItem3",
+                    "isVisible": true,
+                    "isDisabled": false,
+                    "textColor": "#FFFFFF"
+                },
+                "menuItem2": {
+                    "backgroundColor": "#FFFFFF",
+                    "onClick": "",
+                    "widgetId": "",
+                    "index": 1,
+                    "label": "Second Option",
+                    "id": "menuItem2",
+                    "isVisible": true,
+                    "isDisabled": false
+                }
+            },
+            "index": 2,
+            "label": "Message Insurance Representative",
+            "id": "groupButton3",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "groupButton1": {
+            "onClick": "{{navigateTo('MessageDoctor', {}, 'SAME_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
+            "buttonType": "SIMPLE",
+            "iconName": "heart",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 0,
+            "label": "Message Doctor",
+            "id": "groupButton1",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "groupButton2": {
+            "onClick": "{{navigateTo('MessageCoach', {}, 'NEW_WINDOW').then(() => {\n  storeValue('MessengerID', appsmith.store.PatientID);\n});}}",
+            "buttonType": "SIMPLE",
+            "iconName": "add",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 1,
+            "label": "Message Coach",
+            "id": "groupButton2",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "hideCard": false,
+    "mobileRightColumn": 52,
+    "animateLoading": true,
+    "parentColumnSpace": 19.296875,
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton2.onClick"},
+        {"key": "groupButtons.groupButton3.onClick"}
+    ],
+    "leftColumn": 26,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "groupButtons.groupButton1.buttonColor"},
+        {"key": "groupButtons.groupButton2.buttonColor"},
+        {"key": "groupButtons.groupButton3.buttonColor"}
+    ],
+    "key": "1yea3k1naa",
+    "orientation": "horizontal",
+    "isDeprecated": false,
+    "rightColumn": 59,
+    "widgetId": "vjgrsl1vj1",
+    "minWidth": 450,
+    "isVisible": true,
+    "version": 1,
+    "parentId": "0",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 17,
+    "responsiveBehavior": "fill",
+    "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 28,
+    "buttonVariant": "PRIMARY"
+}

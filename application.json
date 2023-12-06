@@ -19,6 +19,18 @@
     {
       "id": "MessageRep",
       "isDefault": false
+    },
+    {
+      "id": "ScheduleDoctorVisit",
+      "isDefault": false
+    },
+    {
+      "id": "ScheduleCoachVisit",
+      "isDefault": false
+    },
+    {
+      "id": "CancelVisit",
+      "isDefault": false
     }
   ],
   "viewMode": false,

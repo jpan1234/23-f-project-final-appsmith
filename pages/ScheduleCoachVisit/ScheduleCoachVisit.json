@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "MessageRep",
-    "slug": "messagerep",
+    "name": "ScheduleCoachVisit",
+    "slug": "schedulecoachvisit",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 560,
+          "bottomRow": 440,
           "containerStyle": "none",
           "snapRows": 70,
           "parentRowSpace": 1,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "MessageRep",
+        "id": "ScheduleCoachVisit",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e29264f298b42a419bc84_656ff4d98670b56ca78f5fbd"
+  "gitSyncId": "656e29264f298b42a419bc84_656ffb758670b56ca78f5fc7"
 }

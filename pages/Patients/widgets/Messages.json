@@ -14,7 +14,6 @@
         {"key": "boxShadow"},
         {"key": "tableData"},
         {"key": "primaryColumns.content.computedValue"},
-        {"key": "primaryColumns.dateSent.computedValue"},
         {"key": "primaryColumns.subject.computedValue"}
     ],
     "needsHeightForContent": true,
@@ -58,7 +57,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701802705059,
+    "columnUpdatedAt": 1701835716181,
     "originalBottomRow": 48,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 72,
@@ -66,14 +65,13 @@
     "defaultPageSize": 0,
     "columnOrder": [
         "subject",
-        "content",
-        "dateSent"
+        "content"
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
     "bottomRow": 47,
     "columnWidthMap": {
-        "subject": 175,
+        "subject": 233,
         "content": 300
     },
     "parentRowSpace": 10,
@@ -111,37 +109,6 @@
             "enableFilter": true,
             "sticky": "",
             "originalId": "subject",
-            "currencyCode": "USD",
-            "verticalAlignment": "CENTER"
-        },
-        "dateSent": {
-            "computedValue": "{{Messages.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"dateSent\"]))}}",
-            "isEditable": false,
-            "notation": "standard",
-            "alias": "dateSent",
-            "enableSort": true,
-            "isSaveVisible": true,
-            "id": "dateSent",
-            "isDisabled": false,
-            "allowSameOptionsInNewRow": true,
-            "validation": {},
-            "isCellVisible": true,
-            "isDerived": false,
-            "textSize": "0.875rem",
-            "allowCellWrapping": false,
-            "index": 1,
-            "isDiscardVisible": true,
-            "isVisible": true,
-            "label": "dateSent",
-            "columnType": "text",
-            "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
-            "isCellEditable": false,
-            "decimals": 0,
-            "width": 150,
-            "enableFilter": true,
-            "sticky": "",
-            "originalId": "dateSent",
             "currencyCode": "USD",
             "verticalAlignment": "CENTER"
         },
