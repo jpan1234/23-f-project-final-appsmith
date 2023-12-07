@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "dateFormat": "YYYY-MM-DD HH:mm",
+    "dateFormat": "YYYY-MM-DD",
     "iconSVG": "/static/media/icon.c0c4b770ee1862b73198267331d1611c.svg",
     "topRow": 40,
     "labelWidth": 5,
@@ -38,7 +38,7 @@
     "labelPosition": "Top",
     "key": "kf8kghwcor",
     "labelTextSize": "0.875rem",
-    "defaultDate": "2023-12-06T02:13:19.868Z",
+    "defaultDate": "2023-12-06T19:01:34.3434-05:00",
     "isDeprecated": false,
     "rightColumn": 57,
     "widgetId": "seaoq75i57",

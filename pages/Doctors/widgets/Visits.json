@@ -15,7 +15,8 @@
         {"key": "tableData"},
         {"key": "primaryColumns.purpose.computedValue"},
         {"key": "primaryColumns.visitDate.computedValue"},
-        {"key": "primaryColumns.patientID.computedValue"}
+        {"key": "primaryColumns.patientID.computedValue"},
+        {"key": "primaryColumns.visitID.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 4,
@@ -57,12 +58,13 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701840993941,
+    "columnUpdatedAt": 1701907601832,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 150,
     "widgetName": "Visits",
     "defaultPageSize": 0,
     "columnOrder": [
+        "visitID",
         "purpose",
         "visitDate",
         "patientID"
@@ -78,6 +80,37 @@
     "dynamicTriggerPathList": [],
     "borderWidth": "1",
     "primaryColumns": {
+        "visitID": {
+            "computedValue": "{{Visits.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"visitID\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "visitID",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "visitID",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 3,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "visitID",
+            "columnType": "number",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "visitID",
+            "currencyCode": "USD",
+            "verticalAlignment": "CENTER"
+        },
         "purpose": {
             "computedValue": "{{Visits.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"purpose\"]))}}",
             "isEditable": false,
